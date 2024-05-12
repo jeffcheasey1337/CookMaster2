@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Black</item>
+        <item name="colorPrimaryDark">@color/Black</item>
+        <item name="colorAccent">@color/Black</item>
+        <item name="searchViewStyle">@style/AppTheme.SearchView</item>
+    </style>
+    <style name="AppTheme.SearchView" parent="Widget.AppCompat.SearchView">
+        <item name="searchIcon">@android:drawable/ic_menu_search</item>
+        <item name="android:hint">"Введите название"</item>
+        <item name="android:textColorHint">@color/Grey</item>
+    </style>
+
+</resources>
